@@ -1,15 +1,5 @@
-.head {
-    align-items: center;
-    background: #f9f9f9;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 2rem;
-}
 .menu__links {
     display: flex;
-}
-.menu__item {
-    list-style: none;
 }
 .menu__link {
     color: #808080;
@@ -21,7 +11,6 @@
 .menu__link:hover {
     color: #ffffff;
     background: #ff7300;
-    text-transform: uppercase;
     border: 1px solid #ff7300;
     border-radius: 15px;
     padding: .2rem;
