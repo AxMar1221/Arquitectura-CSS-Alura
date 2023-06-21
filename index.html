@@ -7,11 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/normalize.css"/>
     <link rel="stylesheet" href="./assets/css/reset.css"/>
-    <link rel="stylesheet" href="./assets/css/menu/menu.css"/>
-    <link rel="stylesheet" href="./assets/css/banner/banner.css"/>
-    <link rel="stylesheet" href="./assets/css/sobre/sobre.css"/>
-    <link rel="stylesheet" href="./assets/css/recetas/recetas.css"/>
-    <link rel="stylesheet" href="./assets/css/nosotros/quienes.css"/>
+    <link rel="stylesheet" href="./assets/css/menu.css"/>
+    <link rel="stylesheet" href="./assets/css/banner.css"/>
+    <link rel="stylesheet" href="./assets/css/sobre.css"/>
+    <link rel="stylesheet" href="./assets/css/recetas.css"/>
+    <link rel="stylesheet" href="./assets/css/quienes.css"/>
+    <link rel="stylesheet" href="./assets/css/footer.css"/>
 </head>
 <body>
     <header class="head">
@@ -131,7 +132,20 @@
 
     </section>
 
-
+    <!-- sección footer  -->
+    <footer class="footer">
+        <h3 class="footer__title">Fruta y Fruto &copy; <span id="currentYear"></span></h3>
+        <p class="footer__description">Contacto</p>
+        <ul class="footer__list">
+            <li class="footer__item"><a class="footer__icon" href="#"><img src="./assets//img/WhatsApp.png" alt="WhatsApp"></a></li>
+            <li class="footer__item"><a class="footer__icon" href="#"><img src="./assets//img/email.png" alt="Email"></a></li>
+            <li class="footer__item"><a class="footer__icon" href="#"><img src="./assets//img/Instagram.png" alt="Instagram"></a></li>
+        </ul>
+    </footer>
+    <script>
+        let currentYear = new Date().getFullYear();
+        document.getElementById("currentYear").innerHTML = currentYear;
+    </script>
 </body>
 </html>
 
