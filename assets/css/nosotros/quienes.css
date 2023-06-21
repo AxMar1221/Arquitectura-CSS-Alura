@@ -1,0 +1,55 @@
+.quienes {
+    padding: 5rem;
+    text-align: center;
+}
+.quienes__title {
+    color: #da2b1f;
+    font-family: Pacifico, cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.quienes__description {
+    color: #595959;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.persons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+.person {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+.person__image {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.person__image--1 {
+    background-image: url(../../img/personas/roberta.jpg);
+}
+.person__image--2 {
+    background-image: url(../../img/personas/marcela.jpg);
+}
+.person__image--3 {
+    background-image: url(../../img/personas/andrea.jpg);
+}
+.person__name {
+    color: #da2b1f;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.person__function {
+    color: #595959;
+    font-size: 1rem;
+    text-transform: lowercase;
+}

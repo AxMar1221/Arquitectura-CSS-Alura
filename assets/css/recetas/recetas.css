@@ -2,5 +2,41 @@
     background: #dab997;
     display: flex;
     flex-wrap: wrap;
-    padding: 5rem 0 0 5rem;
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+.receta__title {
+    font-size: 1.5rem;
+}
+.receta {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(25% - 1rem);
+}
+.receta__image {
+    height: 200px;
+    width: 100%;
+}
+.receta__description {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.receta__content {
+    padding: 1rem;
+}
+.receta__button {
+    background: #DA2B1F;
+    border-radius: 5px;
+    border: none;
+    color: #fdfdfd;
+    padding: .5rem;
+    transition: all .3s ease-in-out;
+}
+.receta__button:hover {
+    cursor: pointer;
+    background: #9f1010;
 }

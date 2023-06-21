@@ -1,3 +1,13 @@
+.head {
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+.menu {
+    padding: 1.5rem;
+}
 .menu__links {
     display: flex;
 }
@@ -14,4 +24,7 @@
     border: 1px solid #ff7300;
     border-radius: 15px;
     padding: .2rem;
+}
+.menu__item {
+    list-style: none;
 }
