@@ -16,5 +16,21 @@
 }
 .banner__image {
     width: 100%;
-    height: calc(100vh -72px);
 }
+@media screen and (min-width:0) {
+    .banner__title {
+        font-size: 3rem;
+    }
+    .banner__image {
+        height: calc(100vh - 75px);
+    }
+}
+@media screen and (min-width:768px) {
+    .banner__title {
+        font-size: 5rem;
+    }
+    .banner__image {
+        height: calc(100vh - 72px);
+    }
+}
+    

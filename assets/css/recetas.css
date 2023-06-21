@@ -5,16 +5,14 @@
     padding-left: 10rem;
     padding-top: 5rem;
 }
-.receta__title {
-    font-size: 1.5rem;
-}
 .receta {
     background: #fdfdfd;
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
-    margin-right: 5rem;
-    width: calc(25% - 1rem);
+}
+.receta__title {
+    font-size: 1.5rem;
 }
 .receta__image {
     height: 200px;
@@ -39,4 +37,31 @@
 .receta__button:hover {
     cursor: pointer;
     background: #9f1010;
+}
+@media screen and (min-width: 0) {
+    .recetas {
+        padding: 5rem 0 0 1rem;
+    }
+    .receta {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .recetas {
+        padding: 5rem 0 0 2.5rem;
+    }
+    .receta {
+        margin-right: 2.5rem;
+        width: calc(33% - 2.5rem);
+    }
+}
+@media screen and (min-width: 992px) {
+    .recetas {
+        padding: 5rem 0 0 5rem;
+    }
+    .receta {
+        margin-right: 5rem;
+        width: calc(25% - 1rem);
+    }
 }
